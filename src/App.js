@@ -1,7 +1,11 @@
-import './App.scss'
+import Header from './Components/Header'
 
 function App() {
-    return <h1>This is a react app</h1>
+    return (
+        <div>
+            <Header />
+        </div>
+    )
 }
 
 export default App

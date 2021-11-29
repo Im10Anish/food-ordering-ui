@@ -1,0 +1,22 @@
+.header {
+    background-color: $main-bg;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    height: $header-height;
+    transition: height 0.3s ease;
+    padding: 5px;
+
+    .container {
+        height: 100%;
+        display: flex;
+    }
+    .left {
+        width: 20%;
+    }
+    .right {
+        width: 80%;
+    }
+}
