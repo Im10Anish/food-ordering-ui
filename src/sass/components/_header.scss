@@ -7,7 +7,7 @@
     z-index: 99;
     height: $header-height;
     transition: height 0.3s ease;
-    padding: 5px;
+    border-bottom: 1px solid $main-color;
 
     .container {
         height: 100%;
@@ -15,8 +15,33 @@
     }
     .left {
         width: 20%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $main-bg;
+        padding: 0 25px;
+        border-right: 1px solid $main-color;
     }
     .right {
         width: 80%;
+        padding: 5px;
+        background-color: $main-bg;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 25px;
+        display: flex;
+        background-color: $main-bg;
+
+        .right-column-1 {
+            display: flex;
+            width: 50%;
+            justify-content: space-between;
+        }
+        .right-column-2 {
+            display: flex;
+            width: 20%;
+            justify-content: space-between;
+            align-items: center;
+        }
     }
 }
